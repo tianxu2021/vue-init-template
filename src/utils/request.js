@@ -9,7 +9,6 @@ const service = axios.create({
 // request 拦截器
 service.interceptors.request.use(
   (config) => {
-    console.log(config);
     // 自定义config 配置
     return config;
   },

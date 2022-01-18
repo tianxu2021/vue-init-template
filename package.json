@@ -20,10 +20,10 @@
     "less-loader": "5.0.0",
     "moment": "^2.29.1",
     "vue": "^2.6.6",
-    "vue-infinite-scroll": "^2.0.2",
     "vue-router": "^3.0.2",
-    "vue-virtual-scroller": "^1.0.10",
-    "vuex": "^3.1.0"
+    "vuex": "^3.1.0",
+    "vxe-table": "3",
+    "xe-utils": "3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",

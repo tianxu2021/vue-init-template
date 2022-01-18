@@ -12,7 +12,7 @@ export default {
   },
   methods: {
     demo() {
-      console.log(this.$store.state.user);
+      // console.log(this.$store.state.user);
     },
   },
 };
