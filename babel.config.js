@@ -1,3 +1,12 @@
+/*
+ * @Author: 田旭
+ * @Date: 2022-01-14 11:14:16
+ * @LastEditTime: 2022-01-24 15:24:38
+ * @LastEditors: 田旭
+ * @FilePath: \vue-cli3-init\babel.config.js
+ * @Description: 按需引入UI库
+ * 
+ */
 const plugins = [];
 if (["production", "prod"].includes(process.env.NODE_ENV)) {
   plugins.push("transform-remove-console");
@@ -18,7 +27,7 @@ plugins.push(
       libraryName: "vxe-table",
       style: true, // 样式是否也按需加载
     },
-    "vxe-table",
+    "vxe-table"
   ]
 );
 

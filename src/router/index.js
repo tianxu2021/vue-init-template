@@ -1,3 +1,12 @@
+/*
+ * @Author: 田旭
+ * @Date: 2022-01-14 11:14:16
+ * @LastEditTime: 2022-01-24 15:10:52
+ * @LastEditors: 田旭
+ * @FilePath: \vue-cli3-init\src\router\index.js
+ * @Description: 路由配置
+ * 
+ */
 import Vue from 'vue'
 import Router from 'vue-router'
 // import store from '@/store'
@@ -11,6 +20,10 @@ const routes = [
         path:'/start',
         name:'start',
         component: () =>import('@/views/start')
+    },{
+        path:'/test',
+        name:'test',
+        component: () =>import('@/views/test')
     },{
         path:'/404',
         name:'404',

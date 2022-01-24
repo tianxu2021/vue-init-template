@@ -1,5 +1,15 @@
+/*
+ * @Author: 田旭
+ * @Date: 2022-01-14 11:14:16
+ * @LastEditTime: 2022-01-24 14:56:06
+ * @LastEditors: 田旭
+ * @FilePath: \vue-cli3-init\src\utils\request.js
+ * @Description: 配置axios实例
+ * 
+ */
 import axios from "axios";
-import config from "../config/index"; // 路径配置
+import config from "../../config/index"; // 路径配置
+
 // 创建axios 实例
 const service = axios.create({
   baseURL: config.baseURL,

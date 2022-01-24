@@ -1,11 +1,17 @@
 /*
-使用babel-plugin-import按需引入antd，具体配置在babel.config.js中。
-另外因为是定制主题的方式，还需要在vue.config.js中配置less的相关参数，
-其中javascriptEnabled的值必须为true，否则主题定制的样式无法生效
- */
-
-/*
- * 这里是全局按需引入
+ * @Author: 田旭
+ * @Date: 2022-01-14 14:12:34
+ * @LastEditTime: 2022-01-24 14:05:39
+ * @LastEditors: 田旭
+ * @FilePath: \vue-cli3-init\src\plugins\ant-design.js
+ * @Description: 
+ * 
+ * 1、使用babel-plugin-import按需引入antd，具体配置在babel.config.js中。
+ * 另外因为是定制主题的方式，还需要在vue.config.js中配置less的相关参数，
+ * 其中javascriptEnabled的值必须为true，否则主题定制的样式无法生效
+ * 
+ * 
+ * 2、这里是全局按需引入
  * 如果想要进一步提升性能
  * 可以只在此注册频繁用到的组件
  * 一些特定场景下才会用到的大型组件可以在具体业务组件中单独引入注册。
@@ -47,9 +53,8 @@ const components = [
   Result,
 ];
 register(components);
-
 function register(components) {
   components.forEach((comp) => {
     Vue.use(comp);
-  });
+  })
 }

@@ -1,8 +1,18 @@
+/*
+ * @Author: 田旭
+ * @Date: 2022-01-14 11:14:16
+ * @LastEditTime: 2022-01-24 14:55:38
+ * @LastEditors: 田旭
+ * @FilePath: \vue-cli3-init\vue.config.js
+ * @Description: vue打包配置
+ * 
+ */
 const path = require('path');
 function resolve (dir) {
   return path.join(__dirname, './', dir)
 }
-
+const env = require('./config/index')
+console.log('路径配置',env)
 module.exports = {
   assetsDir: 'assets',
   publicPath: './',

@@ -1,9 +1,16 @@
+/*
+ * @Author: 田旭
+ * @Date: 2022-01-14 11:14:16
+ * @LastEditTime: 2022-01-24 15:04:39
+ * @LastEditors: 田旭
+ * @FilePath: \vue-cli3-init\src\main.js
+ * @Description: 全局配置
+ * 
+ */
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router/index";
 import store from "./store/index";
-
-import "amfe-flexible"; // 引入flexible
 
 import "@/plugins/ant-design"; //按需引入ant-design-vue
 

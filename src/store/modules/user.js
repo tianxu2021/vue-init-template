@@ -1,3 +1,12 @@
+/*
+ * @Author: 田旭
+ * @Date: 2022-01-14 11:14:16
+ * @LastEditTime: 2022-01-24 15:18:53
+ * @LastEditors: 田旭
+ * @FilePath: \vue-cli3-init\src\store\modules\user.js
+ * @Description: 用户模块配置
+ * 
+ */
 import { getToken, setToken, removeToken } from '@/utils/auth'
 import api from '@/api/user'
 

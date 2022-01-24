@@ -1,3 +1,12 @@
+/*
+ * @Author: 田旭
+ * @Date: 2022-01-18 13:37:41
+ * @LastEditTime: 2022-01-24 14:08:05
+ * @LastEditors: 田旭
+ * @FilePath: \vue-cli3-init\src\plugins\vxe-model.js
+ * @Description: Vxe按需引入配置
+ * 
+ */
 import Vue from 'vue'
 import XEUtils from 'xe-utils'
 import {
@@ -18,7 +27,7 @@ import {
   // 可选组件
   Column,
   // Colgroup,
-  // Grid,
+  Grid,
   // Toolbar,
   // Pager,
   // Checkbox,
@@ -65,7 +74,7 @@ Vue.use(Header)
 // 可选组件
 .use(Column)
 // .use(Colgroup)
-// .use(Grid)
+.use(Grid)
 // .use(Toolbar)
 // .use(Pager)
 // .use(Checkbox)
